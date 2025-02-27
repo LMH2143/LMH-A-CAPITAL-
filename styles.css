@@ -1,0 +1,57 @@
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
